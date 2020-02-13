@@ -1,9 +1,14 @@
 def using_include(array, element)
-
+  mycolors = ["green","red", "white"]
+  mycolors.include?("pink")
+  => TRUE
+else
+  => FALSE
 end
 
 def using_sort(array)
-
+  mycolors = ["green","red", "white"]
+  mycolors.sort
 end
 
 def using_reverse(array)
